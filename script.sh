@@ -1,4 +1,3 @@
 #!/bin/bash
 
-echo $variavel
-ping $variavel
+echo "Hello World"
