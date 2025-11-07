@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ping $VAR1
+echo "Bem vindo ao script 2"
