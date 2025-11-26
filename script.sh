@@ -6,8 +6,6 @@
 #$4=porta
 #Entre aspas o comando desejado
 
-sshpass -p "$1" ssh -o StrictHostKeyChecking=no $2@$3 -p $4 "service nginx stop"
-
 sleep 5
 
 sshpass -p "$1" ssh -o StrictHostKeyChecking=no $2@$3 -p $4 "$5"
