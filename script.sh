@@ -30,6 +30,11 @@ echo "Iniciado o Serviço do NGINX..."
 
 sshpass -p "$1" ssh -o StrictHostKeyChecking=no $2@$3 -p $4 "$7"
 
+echo "---------------------------------------------------------------"
+
+echo "FINALIZADO"
+
+
 
 
 
