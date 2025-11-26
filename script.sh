@@ -12,7 +12,7 @@ sleep 5
 
 sshpass -p "$1" ssh -o StrictHostKeyChecking=no $2@$3 -p $4 "$5"
 
-sudo pkill -9 $6
+pkill -9 $6
 
 
 
