@@ -20,7 +20,7 @@ echo "Matando os Processos Fantasmas"
 
 echo "---------------------------------------------------------------"
 
-sleep 2
+sleep 10
 
 pkill -9 $6
 
